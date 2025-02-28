@@ -25,8 +25,11 @@ SECRET_KEY = 'django-insecure-njk$mp2#fyra5$v%e11__i$e=*zjyl@2wz#28773c&^zbeye3q
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = [
+    "sbddy.com",  # Your custom domain
+    "www.sbddy.com",
+    "studybuddy-2wow.onrender.com",  # Your Render URL
+]
 
 # Application definition
 
